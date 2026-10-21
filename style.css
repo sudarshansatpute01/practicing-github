@@ -1,0 +1,43 @@
+/* Reset some default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Heading */
+h1 {
+    color: #0078d4;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #005a9e;
+}
